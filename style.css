@@ -1,0 +1,39 @@
+#kp-quick-reply-widget {
+  position: fixed;
+  bottom: 20px; /* Smešta ga na dno */
+  left: 20px;   /* Smešta ga u levi ugao */
+  z-index: 9999999 !important; /* Osigurava da je uvek na vrhu */
+  background-color: #ffffff;
+  border: 2px solid #0052a3;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+  max-width: 220px;
+}
+
+#kp-quick-reply-widget h4 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.kp-qr-btn {
+  background-color: #0052a3;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.kp-qr-btn:hover {
+  background-color: #003d7a;
+}

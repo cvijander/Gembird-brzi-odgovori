@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "KP Brzi Odgovori",
+  "version": "1.0",
+  "description": "Brzi preddefinisani odgovori za KupujemProdajem poruke.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.kupujemprodajem.com/*",
+        "https://kupujemprodajem.com/*" ,
+		"https://www.kupindo.com/*",
+		"https://kupindo.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
