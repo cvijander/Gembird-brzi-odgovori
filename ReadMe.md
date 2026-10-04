@@ -8,13 +8,18 @@ Veliki deo komunikacije sa kupcima preko KupujemProdajem i Kupindo poruka se svo
 
 ## Kako radi
 
-Ekstenzija ubacuje mali plutajući widget direktno na stranicu razgovora, sa dugmićima za svaki tip odgovora (Dostupno, Danas, Sutra, Ponedeljak, Lično preuzimanje, Nemamo na stanju, Mala količina, Ocena, Uskoro, Mail to Office). Klikom na dugme, odgovarajući tekst se automatski ubacuje u polje za poruku - spreman za slanje, bez kucanja i bez copy-paste-a.
+Ekstenzija ubacuje mali plutajući widget direktno na stranicu razgovora, sa dugmićima za svaki tip odgovora (Dostupno, Danas, Sutra, Ponedeljak, Lično preuzimanje, Nemamo na stanju, Mala količina, Ocena, Uskoro, Mail to Office, Reklamacija). Klikom na dugme, odgovarajući tekst se automatski ubacuje u polje za poruku - spreman za slanje, bez kucanja i bez copy-paste-a.
+
+## EN verzija
+
+Zbog učestalih poruka i korišćenja, uvideo sam da je neophodno i dodati i Engleski jezik.Tako da su dodata i brza dugmad na Engleskom jeziku.
 
 Widget ostaje aktivan i kada se sadržaj stranice dinamički osveži (npr. pri prelasku na drugu poruku), zahvaljujući proveri koja se ponavlja svake sekunde.
 
 ## Izgled u praksi
 
 ![Widget sa brzim odgovorima](images/kp.jpg)
+![Widget sa brzim odgovorima](images/Srb%20En.jpg)
 
 ## Korišćene tehnologije
 
