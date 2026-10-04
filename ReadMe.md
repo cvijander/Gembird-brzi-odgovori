@@ -20,6 +20,7 @@ Widget ostaje aktivan i kada se sadržaj stranice dinamički osveži (npr. pri p
 
 ![Widget sa brzim odgovorima](images/kp.jpg)
 ![Widget sa brzim odgovorima](images/Srb%20En.jpg)
+![Widget sa brzim odgovorima](images/srb%20en%20full%20strana.jpg)
 
 ## Korišćene tehnologije
 
