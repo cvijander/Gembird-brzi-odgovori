@@ -6,34 +6,65 @@
   background-color: #ffffff;
   border: 2px solid #0052a3;
   border-radius: 8px;
-  padding: 12px;
+  padding: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   font-family: Arial, sans-serif;
-  max-width: 220px;
+  width: 310px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 #kp-quick-reply-widget h4 {
-  margin: 0 0 5px 0;
+  margin: 0 0 2px 0;
   font-size: 14px;
   color: #333;
   text-align: center;
 }
 
+.kp-qr-naslov {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.kp-qr-grid {
+  display: grid;
+  gap: 4px;
+}
+
 .kp-qr-btn {
   background-color: #0052a3;
   color: white;
-  border: none;
-  padding: 8px 12px;
+  border: 1px solid #0052a3;
+  padding: 7px 6px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
-  text-align: left;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
   transition: background-color 0.2s;
 }
 
 .kp-qr-btn:hover {
   background-color: #003d7a;
+}
+
+/* Engleske varijante: svetlija dugmad da se lako razlikuju od srpskih */
+.kp-qr-en {
+  background-color: #ffffff;
+  color: #0052a3;
+}
+
+.kp-qr-en:hover {
+  background-color: #e6f0fa;
 }
