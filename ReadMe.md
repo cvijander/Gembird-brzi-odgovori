@@ -15,11 +15,6 @@ Widget ostaje aktivan i kada se sadržaj stranice dinamički osveži (npr. pri p
 ## Izgled u praksi
 
 ![Widget sa brzim odgovorima](images/kp.jpg)
-<<<<<<< HEAD
-![Widget sa brzin odgovorima](images/Srb%20En.jpg)
-=======
-![Widget sa brzim odgovorima](images/Srb%20En.jpgimages/Srb_En.jpg)
->>>>>>> 7930a05d65d712e8137cbfd5a852d06e21018ae2
 
 ## Korišćene tehnologije
 
